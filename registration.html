@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form action="getdemo.php" method="post">
+        <fieldset style="width: 200px;">
+            <legend>personal info</legend>
+            <br>
+            <label for="f"> first name </label>
+            <input type="text" name="txtfname" id="f">
+            <br><br>
+
+
+            <label for="m"> middle name</label>
+            <input type="text" name="txtmname" id="m">
+
+            <br><br>
+            <label for="l"> last name</label>
+            <input type="text" name="txtlname" id="l">
+
+            <br>
+
+        </fieldset>
+        <fieldset style="width: 200px;">
+            <legend>Platform Interset</legend>
+            <input type="checkbox" name="chkplatform[]" value="php" id="p">
+            <label for="p">php</label> <br>
+            <input type="checkbox" name="chkplatform[]" value="java" id="j">
+            <label for="j">java</label> <br>
+            <input type="checkbox" name="chkplatform[]" value="android" id="a">
+            <label for="a">android</label> <br>
+        </fieldset>
+        <input type="submit">
+        <input type="button" name="btnsave" value="reset">
+
+    </form>
+</body>
+
+</html>
